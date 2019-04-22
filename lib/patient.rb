@@ -11,5 +11,6 @@ end
 
 def new_appointment(doctor, date)
   a = Appointment.new(date, self, doctor)
+  @@all << all
 end
 end
