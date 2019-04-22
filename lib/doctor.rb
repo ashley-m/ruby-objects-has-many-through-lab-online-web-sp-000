@@ -15,7 +15,7 @@ def self.all
   @@all
 end
 
-def new_appointment(date, patient)
+def new_appointment(patient, date)
   a = Appointment.new(date, patient, self)
   @appointments << a
   @patients << patient
