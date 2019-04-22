@@ -9,4 +9,7 @@ def initialize(name)
   @@all << self
 end
 
+def new_appointment(doctor, date)
+  a = Appointment.new(date, self, doctor)
+end
 end
