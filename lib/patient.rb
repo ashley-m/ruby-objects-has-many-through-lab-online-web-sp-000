@@ -16,5 +16,6 @@ def new_appointment(doctor, date)
   doctor.patients << self
   @doctors << doctor
   @appointments << a
+  a
 end
 end
