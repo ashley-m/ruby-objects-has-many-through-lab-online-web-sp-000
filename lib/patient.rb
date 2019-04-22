@@ -18,4 +18,9 @@ def new_appointment(doctor, date)
   @appointments << a
   a
 end
+
+def self.all
+  @@all
+end
+
 end
